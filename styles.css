@@ -85,6 +85,12 @@ a {
     font-weight: 700;
 }
 
+a:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .payment {
    position: relative;
    left: 100px; 
@@ -104,10 +110,10 @@ a {
     right: 60px;
 }
 
-/* .center {
-    margin: 0 auto;
-} */
-
+button:hover {
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
 
 .cancel {
     color: hsl(224, 23%, 55%);
@@ -116,6 +122,12 @@ a {
     position: relative;
     left: 160px;
     top: 20px;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    cursor: pointer;
 }
 
 h2, .annual {
